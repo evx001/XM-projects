@@ -1,0 +1,5 @@
+/Users/evx001/Projects/Consoling000/Consoling000/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.fs
+/Users/evx001/Projects/Consoling000/Consoling000/bin/Debug/Consoling000.exe.mdb
+/Users/evx001/Projects/Consoling000/Consoling000/bin/Debug/Consoling000.exe
+/Users/evx001/Projects/Consoling000/Consoling000/obj/x86/Debug/Consoling000.exe
+/Users/evx001/Projects/Consoling000/Consoling000/obj/x86/Debug/Consoling000.exe.mdb
