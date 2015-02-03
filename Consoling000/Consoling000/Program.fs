@@ -1,4 +1,5 @@
-﻿module TheBookOfFSharp.RpnCalculator
+﻿/// works !
+module TheBookOfFSharp.RpnCalculator
 
 open System
 
