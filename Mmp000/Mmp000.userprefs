@@ -1,8 +1,10 @@
-﻿<Properties StartupItem="Mmp000/Mmp000.fsproj">
+﻿<Properties StartupItem="Mmp000/Mmp000.fsproj" MonoDevelop.MonoMac.LastXamMacNagTime="2/16/2015 2:53:09 AM">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Mmp000/AppDelegate.fs">
     <Files>
-      <File FileName="Mmp000/AppDelegate.fs" Line="1" Column="1" />
+      <File FileName="Mmp000/AppDelegate.fs" Line="50" Column="50" />
+      <File FileName="Mmp000/MainWindow.fs" Line="1" Column="1" />
+      <File FileName="Mmp000/MainWindowController.fs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
