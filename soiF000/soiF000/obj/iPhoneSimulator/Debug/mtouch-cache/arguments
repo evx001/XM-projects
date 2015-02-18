@@ -1,0 +1,31 @@
+# Version: 8.6.1.20 (3b3ef43)
+# [first argument, ignore] # /Users/evx001/Projects/soiF000/soiF000/bin/iPhoneSimulator/Debug/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/8.6.1.20/bin/mtouch-64 \
+	-sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--cache \
+	/Users/evx001/Projects/soiF000/soiF000/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--executable \
+	soiF000 \
+	--nomanifest \
+	--nosign \
+	-sim \
+	/Users/evx001/Projects/soiF000/soiF000/bin/iPhoneSimulator/Debug/soiF000.app \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/mscorlib.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/FSharp.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/monotouch.dll \
+	-debug \
+	-nolink \
+	-sdk \
+	8.1 \
+	--abi=i386 \
+	/Users/evx001/Projects/soiF000/soiF000/bin/iPhoneSimulator/Debug/soiF000.exe \
