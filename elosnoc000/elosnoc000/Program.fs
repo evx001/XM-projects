@@ -1,15 +1,11 @@
-﻿module Time 
-open System 
-let today = DateTime.Now.Date 
-printfn "%A" today 
-///> 2/19/2015 12:00:00 AM
-///////////////////////////
-/// qualified name space 
-let now = System.DateTime.Now 
-printfn "%A" now 
-///> 2/19/2015 9:25:18 PM
+﻿// functions 
+let ys = [1;0;2]
+let rec listLength  = function 
+    | [] -> 0 
+    | _ :: xs -> 1 + ( listLength xs)
 
- 
+
+printfn "%A" (listLength ys)
 
 [<EntryPoint>]
 let main argv = 
