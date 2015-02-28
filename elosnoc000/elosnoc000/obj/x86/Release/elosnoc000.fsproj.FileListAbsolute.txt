@@ -2,3 +2,4 @@ C:\Users\evxasus001\Documents\GitHub\XM-projects\elosnoc000\elosnoc000\bin\Relea
 C:\Users\evxasus001\Documents\GitHub\XM-projects\elosnoc000\elosnoc000\bin\Release\FSharp.Core.dll
 C:\Users\evxasus001\Documents\GitHub\XM-projects\elosnoc000\elosnoc000\bin\Release\FSharp.Core.xml
 C:\Users\evxasus001\Documents\GitHub\XM-projects\elosnoc000\elosnoc000\obj\x86\Release\elosnoc000.exe
+C:\Users\evxasus001\Documents\GitHub\XM-projects\elosnoc000\elosnoc000\obj\x86\Release\elosnoc000.fsprojResolveAssemblyReference.cache
