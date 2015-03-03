@@ -20,6 +20,6 @@ Application.Run(form)
 [<EntryPoint>]
 let main argv = 
     printfn "%A" argv
-    let xXx = System.Console.ReadLine()
+    let xoxo = System.Console.ReadLine()
 
     0 // return an integer exit code
