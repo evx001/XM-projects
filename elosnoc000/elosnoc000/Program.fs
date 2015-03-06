@@ -1,25 +1,22 @@
-﻿open System.Windows.Forms
-// open elosnoc000.modCsv
-
-module AgeTest =
-    type Person = { Name: string; Age: int}
-
-    let testData = 
-        [| 
-            {Name = "Joe"; Age = 37};
-            {Name = "Julie"; Age = 35}
-        |] 
+﻿// exceptionalism000
+open System.IO
 
 
-let form = new Form (Text = "F# Win Form")
-let dataGrid = new DataGridView(Dock=DockStyle.Fill, DataSource = AgeTest.testData)
-form.Controls.Add(dataGrid)
-Application.Run(form)
-
-
+try 
+    us file000 = File.OpenText "FSharpMobileDev.txt"
+    file000.ReadToEnd() |>  printfn "%A" 
+ with 
+    :? FileNotFoundException -> printfn "File not Found"
+     _  -> printfn "Error loading file"
+(* 
 [<EntryPoint>]
 let main argv = 
     printfn "%A" argv
-    let xoxo = System.Console.ReadLine()
-
+    // System.Console.ReadLine() |> ignore
     0 // return an integer exit code
+ *)
+
+
+
+
+

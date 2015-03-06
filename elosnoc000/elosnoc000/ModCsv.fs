@@ -1,4 +1,5 @@
 ﻿namespace elosnoc000
+(* 
 module modCsv = 
     open System
     open System.IO
@@ -121,3 +122,4 @@ module modCsv =
     let hasHeader = true
     let separator = '\t'
     let probes = reader.ReadFile(path, separator, hasHeader)
+    *)
