@@ -1,20 +1,29 @@
-﻿// exceptionalism000
+﻿
+open System 
+open System.Diagnostics 
 open System.IO
 
-
-try 
-    use file000 = File.OpenText "FSharpMobileDev.txt"
-    file000.ReadToEnd() |>  printfn "%A" 
- with 
- |    :? FileNotFoundException -> as ex -> printfn "% File not Found" ex.FileName
- |    _  -> printfn "Error loading file"
-
+let retry maxTries action =  
+    let rec retryInteral attempt = 
+        try 
+            if not (action()) then 
+                raise <| if attempt > maxTries then 
+                                RetryCountExceeded("Maximum attempts exceeded.")
+                             else 
+                                RetryAttemptFailed(sprintf "Attempt %i failed." attempt, attempt)
+        with 
+        |    RetryAttemptFailed(msg, count) as ex -> Console.WriteLine(msg) retryInternal (count + 1) 
+        |    RetryCountExceeded(msg) -> Console.WriteLine(msg) 
+                                                            reraise()  
+    retryInteral 1 
+retry 5 (fun() -> false)
+(* 
 [<EntryPoint>]
 let main argv = 
     printfn "%A" argv
-    System.Console.ReadLine() |> ignore
+    // System.Console.ReadLine() |> ignore
     0 // return an integer exit code
- 
+ *)
 
 
 
