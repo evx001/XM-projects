@@ -1,0 +1,10 @@
+/home/evxyz/EstTaxQrt/EstTaxQrt/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.fs
+/home/evxyz/EstTaxQrt/EstTaxQrt/bin/Debug/EstTaxQrt.exe.mdb
+/home/evxyz/EstTaxQrt/EstTaxQrt/bin/Debug/EstTaxQrt.exe
+/home/evxyz/EstTaxQrt/EstTaxQrt/obj/x86/Debug/EstTaxQrt.exe
+/home/evxyz/EstTaxQrt/EstTaxQrt/obj/x86/Debug/EstTaxQrt.exe.mdb
+/Users/evx001/Projects/FS-EstTax01/EstTaxQrt/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.fs
+/Users/evx001/Projects/FS-EstTax01/EstTaxQrt/bin/Debug/EstTaxQrt.exe.mdb
+/Users/evx001/Projects/FS-EstTax01/EstTaxQrt/bin/Debug/EstTaxQrt.exe
+/Users/evx001/Projects/FS-EstTax01/EstTaxQrt/obj/x86/Debug/EstTaxQrt.exe
+/Users/evx001/Projects/FS-EstTax01/EstTaxQrt/obj/x86/Debug/EstTaxQrt.exe.mdb
